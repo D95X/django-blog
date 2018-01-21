@@ -1,0 +1,12 @@
+{% extends 'base_lay.html' %}
+{% block content %}
+    <div class="article-detail">
+        <div class="article">
+            <img src="{{ article.thumb.url }}">
+            <h3>{{ article.title }}</h3>
+            <p>{{ article.body }}</p>
+            <p>{{ article.date }}</p>
+            <p class="author"> Written by: {{ article.author.username }} </p>
+        </div>
+    </div>
+{% endblock %}
