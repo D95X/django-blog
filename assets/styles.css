@@ -71,6 +71,10 @@ nav button{
     font-size: 1.2em;
 }
 
+.article h3 a{
+  color:#141414;
+}
+
 .article-detail .article{
     padding: 0;
 }
